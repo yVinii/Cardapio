@@ -1,0 +1,141 @@
+body{
+    background-color: rgb(152, 37, 37);
+}
+/* Header */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px;
+    box-sizing: border-box;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkred;
+    height: 100px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Espaço entre os itens */
+  }
+  
+  nav li {
+    text-align: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-family: Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+  }
+
+  .but.active{
+    color:goldenrod;
+  }
+
+  nav a:hover{
+    color:gold;
+  }
+/* Imagem Gorduchos */
+
+.imagem-container {
+  text-align: center; /* Centralize horizontalmente */
+  margin-top: 20px; /* Espaço entre o cabeçalho e a imagem, ajuste conforme necessário */
+}
+
+.imagem-container img {
+  max-width: 100%; /* Garanta que a imagem não seja maior do que seu contêiner */
+  height: auto; /* Mantenha a proporção da imagem ao redimensionar */
+  width: 70%; /* Defina o tamanho desejado, ajuste conforme necessário */
+  margin-top:60px;
+}
+
+/* Conteúdo */
+
+.conteudo{
+  position: absolute;
+  left: 0;
+  z-index: 1000;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: goldenrod;
+  float: left;
+
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.conteudo h1{
+  text-align: center;
+  color: rgb(152, 37, 37);
+  margin-top: 50px;
+  font-size: 70px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.card-container{
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card{
+  background-color: black;
+  width: 500px;
+  height: 600px;
+  border-radius: 30px;
+  box-shadow: inset;
+  margin: 20px auto;
+  border: 2px solid black;
+  background-repeat: no-repeat;
+}
+.info {
+  text-align: center;
+  color: white;
+  padding: 50px;
+  margin-top: 470px;
+}
+
+.nome {
+  font-size: 30px;
+}
+
+.preco {
+  font-size: 25px;
+}
+
+#primeiro {
+  background-image: url(images/lanche1.jpg);
+}
+#primeiro2 {
+  background-image: url(images/Aperitivo1.jpg);
+}
+#primeiro3 {
+  background-image: url(images/bebidas1.jpg);
+}
+#segundo {
+  background-image: url(images/lanche2.jpg);
+}
+#segundo2 {
+  background-image: url(images/Aperitivo2.jpg);
+}
+#segundo3 {
+  background-image: url(images/bebidas2.jpg);
+}
+#terceiro {
+  background-image: url(images/lanche3.jpg);
+}
+#terceiro2 {
+  background-image: url(images/Aperitivo3.jpg);
+}
+#terceiro3 {
+  background-image: url(images/bebidas3.jpg);
+}
